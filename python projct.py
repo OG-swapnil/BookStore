@@ -44,7 +44,7 @@ while True:
 +++++++++++++++++++++++""")
 
                 print("""======================================================================
-++++++++++++++++++++++++++    SWADITYA BOOK STORE     +++++++++++++++++++++++++
+++++++++++++++++++++++++++    SWAPNIL BOOK STORE     +++++++++++++++++++++++++
 ==========================================================================""")
 
                 mycursor.execute("create table if not exists Available_Books(BookName varchar(30) primary key,Genre varchar(20),Quantity int(3),Author varchar(20),Publication varchar(30),Price int(4))")
